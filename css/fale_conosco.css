@@ -1,0 +1,59 @@
+.fale_conosco_bg {
+  background: #d4d4d4;
+  padding: 50px 0px;
+}
+.fale_conosco {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.fale_conosco_texto p {
+  color: var(--cor-bg);
+  font-size: 1.563rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.input {
+  min-height: 35px;
+  max-width: 250px;
+  padding: 0 1rem;
+  color: #000;
+  font-size: 15px;
+  border: 1px solid var(--cor-bg);
+  border-radius: 6px;
+  background-color: transparent;
+}
+.button--submit {
+  min-height: 37px;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--cor-bg);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: var(--cor-rover);
+}
+
+.input:focus,
+.input:focus-visible {
+  border-color: var(--cor-rover);
+  outline: none;
+}
+
+@media (max-width: 750px) {
+  .fale_conosco {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

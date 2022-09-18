@@ -1,0 +1,34 @@
+:root {
+  --cor-rover: #1a98b1;
+  --cor-bg: #154954;
+  --cor-api: #a9c3cb;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+:focus {
+  outline: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.container_maior {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+body {
+  /* height: 2500px; */
+}

@@ -1,0 +1,41 @@
+.footer_bg {
+  background: var(--cor-bg);
+  padding: 30px 0px;
+}
+.footer {
+  text-align: center;
+}
+.footer p {
+  font-size: 0.938rem;
+}
+.footer_sociais {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+.footer_sociais span i {
+  color: var(--cor-bg);
+  font-size: 20px;
+}
+.footer_sociais span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #fff;
+  transition: .5s;
+}
+.footer_sociais span:hover {
+  background: var(--cor-bg);
+  border: 1px solid #fff;
+}
+.footer_sociais span:hover i {
+  color: #fff;
+}
